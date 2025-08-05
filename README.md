@@ -5,27 +5,27 @@ LavaLock is a hardware-based password generator that uses the unpredictable, cha
 
 Instead of relying on pseudo-random algorithms, LavaLock captures dynamic visual patterns from lava lamps (or their simulated version using a webcam or animation) and converts that entropy into cryptographic-grade randomness. This randomness is then fed into a secure algorithm to generate one-time or long-term passwords for user applications, networks, or secure systems.
 
-Key Features:
+##Key Features:
 
-Utilizes natural entropy from chaotic motion
+*Utilizes natural entropy from chaotic motion
 
-Patented technology
+*Patented technology
 
-No two passwords are ever alike
+*No two passwords are ever alike
 
-Option to simulate lava lamp motion when physical hardware is not available
+*Option to simulate lava lamp motion when physical hardware is not available
 
-Ideal for cybersecurity applications and password vaults
+*Ideal for cybersecurity applications and password vaults
 
-Technology Used:
+##Technology Used:
 
-Python
+*Python
 
-OpenCV (for image capture & processing)
+*OpenCV (for image capture & processing)
 
-Web interface for simulation
+*Web interface for simulation
 
-Arduino (optional for hardware integration)
+*Arduino (optional for hardware integration)
 
 
 
@@ -42,4 +42,5 @@ cd lavalock
 pip install -r requirements.txt
 
 python app.py
+
 
