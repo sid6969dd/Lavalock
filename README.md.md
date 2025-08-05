@@ -10,7 +10,8 @@ A simulated version of LavaLock — the unhackable password generator that uses 
 ## 🚀 Run the App
 
 ```bash
-git clone https://github.com/yourusername/lavalock
+git clone https://github.com/sid6969dd/lavalock
 cd lavalock
 pip install -r requirements.txt
+
 python app.py
